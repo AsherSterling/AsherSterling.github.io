@@ -1,0 +1,10 @@
+@font-face {    
+    font-family: 'Yipes';
+    src: url('Fonts/Yipes.ttf'), format(.ttf);
+}
+
+h1 {
+  font-size: 6em;
+  font-family: 'Yipes';
+  font-weight: bold;
+}
