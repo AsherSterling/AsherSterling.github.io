@@ -8,3 +8,7 @@ h1 {
   font-family: 'Yipes';
   font-weight: bold;
 }
+
+.gradient-box {
+  background: linear-gradient(#f7813e, #7bd4fe);
+}
