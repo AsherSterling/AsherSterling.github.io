@@ -20,6 +20,9 @@ h4,p {
   src:url('Fonts/SNPro-VariableFont_wght.ttf'), format(.tff);
 }
 
-.gradient-box {
-  background: linear-gradient(#f7813e, #7bd4fe);
+/* This gradient box is me trying to add a sunset hue shift in the background of the entire page */
+
+body {
+  background: linear-gradient(#f7813e 60%, #be8cdd 20%, #7bd4fe 20%);
+  height: 1500px;
 }
