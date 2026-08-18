@@ -12,7 +12,7 @@ h1 {
   font-size: 3rem;
   font-family: 'Chango';
   font-weight: bold;
-  padding: 0rem 30rem 20rem 0rem;
+  padding: 0rem 40rem 30rem 0rem;
   text-align: end;
 }
 
@@ -20,7 +20,6 @@ h4 {
   font-size: 2rem;
   font-family: 'snpro';
   src:url('Fonts/SNPro-VariableFont_wght.ttf'), format(.tff);
-  padding: 0rem 10rem 0rem 10rem;
 }
 
 p {
@@ -28,12 +27,13 @@ p {
   font-size: 1rem;
   font-family: 'snpro';
   src:url('Fonts/SNPro-VariableFont_wght.ttf'), format(.tff);
+  padding: 0rem 0rem 4rem 0rem;
 }
 
 /* This gradient box is me trying to add a sunset hue shift in the background of the entire page */
 
 body {
   background: linear-gradient(#d645af 5%, #fe9354 50%, #b48ace 75%, #4d93e3 85%);
-  height: 4300px;
-  margin: 20rem 20rem 10rem 20rem;
+  height: 4000px;
+  margin: 20rem 10rem 10rem 10rem;
 }
