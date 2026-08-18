@@ -1,6 +1,6 @@
 @font-face {    
     font-family: 'Chango';
-    src: url('Fonts/Chango-Regular'), format(.ttf);
+    src: url('Fonts/Chango-Regular.ttf'), format(.ttf);
 }
 
 h1 {
