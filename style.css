@@ -3,10 +3,21 @@
     src: url('Fonts/Chango-Regular.ttf'), format(.ttf);
 }
 
+@font-face {    
+    font-family: 'snpro';
+    src: url('Fonts/SNPro-VariableFont_wght.ttf'), format(.ttf);
+}
+
 h1 {
   font-size: 3em;
   font-family: 'Chango';
   font-weight: bold;
+}
+
+h4,p {
+  font-size: 1em;
+  font-family: 'snpro';
+  src:url('Fonts/SNPro-VariableFont_wght.ttf'), format(.tff);
 }
 
 .gradient-box {
