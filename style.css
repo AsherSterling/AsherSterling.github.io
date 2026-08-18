@@ -1,11 +1,11 @@
 @font-face {    
-    font-family: 'Yipes';
-    src: url('Fonts/Yipes.ttf'), format(.ttf);
+    font-family: 'Chango';
+    src: url('Fonts/Chango-Regular'), format(.ttf);
 }
 
 h1 {
   font-size: 6em;
-  font-family: 'Yipes';
+  font-family: 'Chango';
   font-weight: bold;
 }
 
