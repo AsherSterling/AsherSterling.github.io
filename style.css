@@ -1,3 +1,5 @@
+/* -------- TEXT -------- */
+
 @font-face {    
     font-family: 'Chango';
     src: url('Fonts/Chango-Regular.ttf'), format(.ttf);
@@ -8,13 +10,20 @@
     src: url('Fonts/SNPro-VariableFont_wght.ttf'), format(.ttf);
 }
 
-h1 {
-  font-size: 3rem;
-  font-family: 'Chango';
-  font-weight: bold;
-  padding: 0rem 40rem 30rem 0rem;
-  text-align: end;
+.center {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0px ;
+
+    display: flex;
+    justify-content: right;
+
+    margin-bottom: 30rem;
+
+    gap: 25px;
+    /* gap between image and title */
 }
+
 
 h4 {
   font-size: 2rem;
@@ -24,16 +33,82 @@ h4 {
 
 p {
   padding: 0rem 0rem 5rem 0rem;
+  
   font-size: 1rem;
   font-family: 'snpro';
   src:url('Fonts/SNPro-VariableFont_wght.ttf'), format(.tff);
   padding: 0rem 0rem 4rem 0rem;
 }
 
-/* This gradient box is me trying to add a sunset hue shift in the background of the entire page */
 
 body {
   background: linear-gradient(#d645af 5%, #fe9354 50%, #b48ace 75%, #4d93e3 85%);
   height: 4000px;
-  margin: 20rem 10rem 10rem 10rem;
+  margin: 10rem 10rem 10rem 10rem;
+  
+}
+/* This gradient box is me trying to add a sunset hue shift in the background of the entire page. Also I tried to make it simple by coding both h1 and p as a group to have similar effects but ended up creating seperate lines of codes for them.*/
+
+
+/* ---------- TITLE ---------- */
+
+/* h1 { 
+  font-size: 3rem;
+  font-family: 'Chango';
+  font-weight: bold;
+
+  padding: 0rem 40rem 30rem 0rem;
+
+  text-align: end;
+}
+*/
+
+.center-text {
+    width: 70%;
+    text-align: right;
+    color: #4649ed;
+    margin-top: 100px;
+}
+
+.center-text h1 {
+
+    font-family: 'Snpro', sans-serif;
+    font-size: 4rem;
+
+    text-align: right;
+    
+    line-height: 1.2;
+    font-weight: bold;
+    
+}
+
+.center-text h3 {
+    margin-top: 10px;
+
+    font-family: 'Snpro', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+
+/* -------- IMAGE -------- */
+
+.center-image {
+    width: 300px;
+    height: 600px;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    flex-shrink: 0;
+}
+
+.center-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
 }
