@@ -8,9 +8,16 @@
 
 
 
-/* --------- TITLE --------- */
+/* --------- TEXT --------- */
 
 h1 {
     font-size: 2rem;
 
+}
+
+body {
+  background: linear-gradient(#cf8d37 5%, #ce703a 50%,);
+  height: 5500px;
+  margin: 10rem 10rem 10rem 10rem;
+  
 }
