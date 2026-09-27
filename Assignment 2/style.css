@@ -1,5 +1,7 @@
 .body {
     margin: 20rem, 40rem, 20rem, 40rem
-    
+    display: flex;
+    justify-content: right;
+
 
 }
