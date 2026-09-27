@@ -1,17 +1,17 @@
 /* --------FONTS-------- */
 @font-face {
     font-family: 'wallabies';
-    src: url('Fonts/dreamy-wallabies.zip'), format(.tff);
+    src: url('Fonts/Dreamy\ Wallabies.otf'), format(.otf);
 }
 
 @font-face {
     font-family: 'athena';
-    src: url(Fonts/athena-signature.zip), format(.tff);;
+    src: url(Fonts/Athena\ Signature.otf), format(.otf);;
 }
 
 @font-face {
     font-family: 'peach';
-    src: url(Fonts/organic-peach-demo.zip), format(.tff);;
+    src: url(Fonts/Organic\ Peach\ DEMO.otf), format(.otf);;
 }
 
 /* --------TEXT-------- */
