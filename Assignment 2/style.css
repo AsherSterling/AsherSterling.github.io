@@ -16,7 +16,7 @@
 
 /* --------TEXT-------- */
 body {
-    margin: 20rem, 100rem, 20rem, 100rem;
+    margin: 20rem 50rem 20rem 50rem;
     display: grid;
     justify-content: center;
 
@@ -34,7 +34,7 @@ ol {
 /* --------CLASS-------- */
 .brownbox {
     text-align: center;
-    margin: 20rem 100rem 20rem 100rem;
+    
     
 
 }
