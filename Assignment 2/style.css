@@ -14,33 +14,51 @@
     src: url(Fonts/Organic\ Peach\ DEMO.otf), format(.otf);
 }
 
+
 /* --------TEXT-------- */
 body {
     margin: 10rem 30rem 10rem 30rem;
     display: grid;
     justify-content: center;
-
 }
 
 h1 {
     font-family: 'wallabies', sans-serif;
-    font-size: 6rem;
+    font-size: 10rem;
 }
 
 h3 {
-    font-family: 'peach';
+    font-size: 3rem;
+}
+
+h4 {
+    font-family: 'athena';
     font-size: 2rem;
+}
+
+p {
+    font-size: 5rem;
 }
 
 ol {
     text-align: left;
 }
 
+li {
+    font-size: 2rem;
+}
+
+
 /* --------CLASS-------- */
 .brownbox {
+    font-family: 'peach';
     text-align: center;
-    
-    
+}
+
+.ingredients {
 
 }
 
+.title {
+    
+}
