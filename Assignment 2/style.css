@@ -1,7 +1,28 @@
+/* --------FONTS-------- */
+@font-face {
+    font-family: 'wallabies';
+    src: url('Fonts/dreamy-wallabies.zip'), format(.tff);
+}
+
+@font-face {
+    font-family: 'athena';
+    src: url(Fonts/athena-signature.zip), format(.tff);;
+}
+
+@font-face {
+    font-family: 'peach';
+    src: url(Fonts/organic-peach-demo.zip), format(.tff);;
+}
+
+/* --------TEXT-------- */
 .body {
     margin: 20rem, 40rem, 20rem, 40rem
     display: grid;
     justify-content: center;
 
+}
 
+.h1 {
+    font-family: 'wallabies';
+    font-size: 6rem;
 }
