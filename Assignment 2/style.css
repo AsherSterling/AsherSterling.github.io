@@ -55,10 +55,14 @@ li {
     text-align: center;
 }
 
-.ingredients {
-
+.Ingredients {
+    margin-top: 10rem;
 }
 
-.title {
-    
+.recipe {
+    margin-top: 20rem;
+}
+
+.video {
+    margin-top: 10rem;
 }
