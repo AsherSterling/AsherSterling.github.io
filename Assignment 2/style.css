@@ -6,23 +6,23 @@
 
 @font-face {
     font-family: 'athena';
-    src: url(Fonts/Athena\ Signature.otf), format(.otf);;
+    src: url(Fonts/Athena\ Signature.otf), format(.otf);
 }
 
 @font-face {
     font-family: 'peach';
-    src: url(Fonts/Organic\ Peach\ DEMO.otf), format(.otf);;
+    src: url(Fonts/Organic\ Peach\ DEMO.otf), format(.otf);
 }
 
 /* --------TEXT-------- */
-.body {
+body {
     margin: 20rem, 40rem, 20rem, 40rem
     display: grid;
     justify-content: center;
 
 }
 
-.h1 {
-    font-family: 'wallabies';
+h1 {
+    font-family: 'wallabies', sans-serif;
     font-size: 6rem;
 }
