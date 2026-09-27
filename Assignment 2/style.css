@@ -16,7 +16,7 @@
 
 /* --------TEXT-------- */
 body {
-    margin: 20rem, 40rem, 20rem, 40rem
+    margin: 20rem, 40rem, 20rem, 40rem;
     display: grid;
     justify-content: center;
 
