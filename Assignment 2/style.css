@@ -27,8 +27,13 @@ h1 {
     font-size: 6rem;
 }
 
+ol {
+    text-align: left;
+}
+
 /* --------CLASS-------- */
 .brownbox {
-    text-align: left;
+    text-align: center;
+    margin: 20rem, 100rem, 20rem, 100rem;
 }
 
