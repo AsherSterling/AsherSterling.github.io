@@ -27,6 +27,11 @@ h1 {
     font-size: 6rem;
 }
 
+h3 {
+    font-family: 'peach';
+    font-size: 2rem;
+}
+
 ol {
     text-align: left;
 }
