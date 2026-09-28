@@ -60,7 +60,7 @@ li {
 /* --------CLASS-------- */
 .brownbox {
     background-color: #364224; 
-    height: 1000px;
+    min-height: 100vh;
     width: 800px;
 }
 
@@ -81,3 +81,10 @@ li {
     margin-bottom: 10rem;
 }
 
+/* Others */
+
+html {
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
