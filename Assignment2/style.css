@@ -25,6 +25,8 @@ body {
 h1 {
     font-family: 'wallabies', sans-serif;
     font-size: 10rem;
+    margin-bottom: 0;
+    line-height: 1;
 }
 
 h3 {
@@ -34,6 +36,7 @@ h3 {
 h4 {
     font-family: 'athena';
     font-size: 2rem;
+    margin-top: 0;
 }
 
 p {
