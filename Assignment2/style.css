@@ -23,6 +23,8 @@ body {
     color: #3a1f10;
     background: linear-gradient(180deg, #f8945e 0%, #a1481f 100%);
     min-height: 100vh;
+    font-family: 'peach';
+    text-align: center;
 }
 
 h1 {
@@ -57,13 +59,9 @@ li {
 
 /* --------CLASS-------- */
 .brownbox {
-    font-family: 'peach';
-    text-align: center;
-    z-index: -1; 
     background-color: #364224; 
-    height: auto;
+    height: 1000px;
     width: 800px;
-
 }
 
 .Ingredients {
