@@ -20,6 +20,9 @@ body {
     margin: 10rem 30rem 10rem 30rem;
     display: grid;
     justify-content: center;
+    color: #3a1f10;
+    background: linear-gradient(180deg, #f8945e 0%, #a1481f 100%);
+    min-height: 100vh;
 }
 
 h1 {
