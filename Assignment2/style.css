@@ -77,3 +77,25 @@ li {
 .title {
     margin-bottom: 10rem;
 }
+
+.frame {
+  max-width: 900px;
+  margin: 0 auto;
+  border: 28px solid var(--frame-border);
+  border-top: none;
+}
+
+
+/* --------COLOR-------- */
+:root {
+  --frame-border: #5b5738;   /* dark olive border/frame */
+  --title-bg-top: #eaa471;   /* peach */
+  --title-bg-bottom: #d9824f;/* deeper orange */
+  --gingham-light: #f3e3dd;  /* pale pink-white check */
+  --gingham-dark: #cf9f92;   /* dusty rose check */
+  --photo-box: #3a1607;      /* dark brown placeholder */
+  --ingredients-bg: #8b6a5b; /* mauve/taupe box */
+  --text-dark: #3a1f10;
+  --icon-bg: #e79a63;
+  --icon-color: #4a2b12;
+}
