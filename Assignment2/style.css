@@ -13,9 +13,18 @@
     font-family: 'peach';
     src: url(Fonts/Organic\ Peach\ DEMO.otf), format(opentype);
 }
+/* I decided to go for handwritten or cursive fonts to help bring that homemade and gentle feel to the webpage. */
 
+/* --------ELEMENTS-------- */
+html {
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+/* I wanted the transition from clicking the sidebuttons to scroll smoothly instead of jumping to their respective sections. */
+/* I also encountered an issue with my background gradient repeating. */
 
-/* --------TEXT-------- */
 body {
     margin: 10rem 30rem 10rem 30rem;
     display: grid;
@@ -26,6 +35,7 @@ body {
     font-family: 'peach';
     text-align: center;
 }
+/* I had initially tried to do everything in this body element but it proved too difficult to differentiate. So I created a seperate class for the title, headings, and lists. */
 
 h1 {
     font-family: 'wallabies', sans-serif;
@@ -98,10 +108,11 @@ li {
     gap: 1rem;
     z-index: 10;
 }
+/* I didnt want the buttons to exclusively stay somewhere on the page because the navigational tool should be easily accessible to users immediately. */
 
 .btn img {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 .btn:hover {
@@ -113,11 +124,3 @@ li {
     transform: scale(0.95);
 }
 
-/* Others */
-
-html {
-    min-height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    scroll-behavior: smooth;
-}
