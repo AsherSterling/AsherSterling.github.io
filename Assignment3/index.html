@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scroll Video</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Tall section: its height controls how long the scroll lasts -->
+  <section class="scroll-section">
+    <div class="sticky">
+      <video id="bg-video" muted playsinline preload="auto">
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      <h1 class="overlay">Your headline</h1>
+    </div>
+  </section>
+
+  <section class="after">
+    <p>Content after the video finishes.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
