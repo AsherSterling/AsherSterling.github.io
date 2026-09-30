@@ -1,7 +1,7 @@
 body { margin: 0; }
 
 .scroll-section {
-  height: 2000vh; /* longer = slower, smoother scrubbing */
+  height: 500vh; /* longer = slower, smoother scrubbing */
   position: relative;
 }
 
