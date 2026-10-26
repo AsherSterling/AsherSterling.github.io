@@ -48,6 +48,7 @@ body {
 .options {
   list-style: none;
   margin-top: 10rem;
+  margin-left: 6rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -55,7 +56,7 @@ body {
 /* Here i'm using list-style to remove the bullet points and spacing it to look similar to a default main menu. */
 
 .option {
-  font-family: ;
+  font-family: 'punk';
   font-size: 5rem;
   color: var(--white);
   background: var(--black);
