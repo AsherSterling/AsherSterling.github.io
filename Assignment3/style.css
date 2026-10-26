@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Punk';
-    src: url('Fonts/Mechapunk\ Bold\ Italic.otf'), format(opentype);
+    src: url('fonts/Mechapunk\ Bold\ Italic.otf'), format(opentype);
 }
 
 
@@ -55,7 +55,7 @@ body {
 /* Here i'm using list-style to remove the bullet points and spacing it to look similar to a default main menu. */
 
 .option {
-  font-family: inherit;
+  font-family: ;
   font-size: 5rem;
   color: var(--white);
   background: var(--black);
