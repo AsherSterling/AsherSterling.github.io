@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Punk";
+  src: url("fonts/Mechapunk\ Bold\ Italic.otf");
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +35,32 @@ body {
     object-fit: cover;
 }
 
-.titleimg {
-    
+.menu {
+  position: relative;
+  z-index: 10;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8vw;
+}
+
+.options {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+/* Here i'm using list-style to remove the bullet points and spacing it to look similar to a default main menu. */
+
+.option {
+  font-family: inherit;
+  font-size: 3rem;
+  color: var(--white);
+  background: var(--black);
+  border: none;
+  padding: 0.5rem 3rem 0.5rem 1.5rem;
+  cursor: pointer;
+  transform: skewX(-15deg);
+  transition: transform 0.2s, background 0.2s, color 0.2s;
 }
