@@ -50,13 +50,13 @@ body {
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.5rem;
 }
 /* Here i'm using list-style to remove the bullet points and spacing it to look similar to a default main menu. */
 
 .option {
   font-family: inherit;
-  font-size: 3rem;
+  font-size: 5rem;
   color: var(--white);
   background: var(--black);
   border: none;
