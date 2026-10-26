@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Punk";
-  src: url("fonts/Mechapunk\ Bold\ Italic.otf");
+    font-family: 'Punk';
+    src: url('Fonts/Mechapunk\ Bold\ Italic.otf'), format(opentype);
 }
 
 
