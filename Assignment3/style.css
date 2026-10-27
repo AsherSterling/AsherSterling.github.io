@@ -57,7 +57,7 @@ body {
 
 .option {
   font-family: 'punk';
-  font-size: 8rem;
+  font-size: 6rem;
   color: var(--white);
   background: var(--black);
   border: none;
