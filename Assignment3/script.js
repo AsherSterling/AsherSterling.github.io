@@ -45,8 +45,8 @@ var sounds = {
 
 sounds.hover.volume = 0.3;
 
-function playSound(name){
-    var sound = sounds[name];
+function playSound(pip){
+    var sound = sounds[pip];
     if (!sound) return;
 
     var copy = sound.cloneNode();
