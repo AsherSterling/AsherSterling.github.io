@@ -42,9 +42,8 @@ sounds.hover.volume = 0.3;
 
 function playSound(hover){
     var sound = sounds[hover];
-    if (!sound) return; // wrong name, just skip
-
-    // copy it so the sound can overlap when i click fast
+    if (!sound) return; 
+    
     var copy = sound.cloneNode();
     copy.volume = sound.volume;
     copy.play();
@@ -62,5 +61,11 @@ for (var s = 0; s < options.length; s++){
     })
 }
 
+copy.play().catch(function (err){
+    console.log("sound didn't play:", err);
+})
+
+
 var bgMusic = document.getElementById("bg-music");
 bgMusic.volume = 0.3; 
+
