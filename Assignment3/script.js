@@ -1,0 +1,33 @@
+var layers = document.querySelectorAll(".layer");
+var options = document.querySelectorAll(".option");
+var wipe = document.getElementById("wipe");
+var wipeText = document.getElementById("wipeText");
+var gloom = document.getElementById("gloom");
+var title = document.getElementById("title");
+
+var mouseX = 0;
+var mouseY = 0;
+
+var currentX = 0;
+var currentY = 0;
+
+document.addEventListener("mousemove", function (e) {
+  mouseX = (e.clientX / window.innerWidth - 0.5) * 2;
+  mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
+  resetIdle();  
+});
+
+function animate() {
+    currentX += (mouseX - currentX) * 0.08;
+    currentY += (mouseY - currentY) * 0.08;
+ 
+    for (var i = 0; i < layers.length; i++) {
+        var depth = layers[i].dataset.depth;
+        var moveX = -currentX * depth * 300;
+        var moveY = -currentY * depth * 300;
+        layers[i].style.transform = "translate(" + moveX + "px, " + moveY + "px)";
+    }
+ 
+    requestAnimationFrame(animate);
+}
+animate();
