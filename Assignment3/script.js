@@ -1,10 +1,6 @@
 // -------- HOVER INTERACTION ---------
 var layers = document.querySelectorAll(".layer");
 var options = document.querySelectorAll(".option");
-var wipe = document.getElementById("wipe");
-var wipeText = document.getElementById("wipeText");
-var gloom = document.getElementById("gloom");
-var title = document.getElementById("title");
 
 var mouseX = 0;
 var mouseY = 0;
@@ -28,7 +24,6 @@ function animate(){
         var moveY = -currentY * depth * 300;
         layers[i].style.transform = "translate(" + moveX + "px, " + moveY + "px)";
     }
- 
     requestAnimationFrame(animate);
 }
 animate()
@@ -45,10 +40,11 @@ var sounds = {
 
 sounds.hover.volume = 0.3;
 
-function playSound(pip){
-    var sound = sounds[pip];
-    if (!sound) return;
+function playSound(hover){
+    var sound = sounds[hover];
+    if (!sound) return; // wrong name, just skip
 
+    // copy it so the sound can overlap when i click fast
     var copy = sound.cloneNode();
     copy.volume = sound.volume;
     copy.play();
@@ -57,10 +53,13 @@ function playSound(pip){
 for (var s = 0; s < options.length; s++){
     options[s].addEventListener("mouseenter", function (){
         playSound("hover");
-    });
+    })
+
     options[s].addEventListener("focus", function (){
-        playSound("hover");
-    });
+        if (this.matches(":focus-visible")){
+            playSound("hover");
+        }
+    })
 }
 
 
