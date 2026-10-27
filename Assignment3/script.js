@@ -36,7 +36,7 @@ animate()
 
 //  -------- SOUND EFFECTS --------
 var sounds = {
-    hover: new Audio("sounds/hover.mp3"),
+    hover: new Audio("sounds/pip.mp3"),
     start: new Audio("sounds/start.mp3"),
     continue: new Audio("sounds/select.mp3"),
     gallery: new Audio("sounds/select.mp3"),
@@ -62,3 +62,9 @@ for (var s = 0; s < options.length; s++){
         playSound("hover");
     });
 }
+
+// ---------- 7. BACKGROUND MUSIC ----------
+var music = new Audio("sounds/AmbienceCity.mp3");
+music.loop = true;
+music.volume = 0.4;
+music.play();
