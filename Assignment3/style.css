@@ -59,7 +59,7 @@ body {
   font-family: 'punk';
   font-size: 6rem;
   color: rgb(249, 22, 162);
-  background: var(--black);
+  background: black;
   border: none;
   padding: 0.5rem 3rem 0.5rem 1.5rem;
   cursor: pointer;
