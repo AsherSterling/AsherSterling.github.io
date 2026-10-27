@@ -58,7 +58,7 @@ body {
 .option {
   font-family: 'punk';
   font-size: 6rem;
-  color: var(--white);
+  color: rgb(249, 22, 162);
   background: var(--black);
   border: none;
   padding: 0.5rem 3rem 0.5rem 1.5rem;
