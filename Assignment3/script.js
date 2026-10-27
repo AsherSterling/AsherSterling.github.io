@@ -30,7 +30,7 @@ animate()
 
 //  -------- SOUND EFFECTS --------
 var sounds = {
-    hover: new Audio("sounds/Pip.mp3"),
+    hover: new Audio("sounds/pip.mp3"),
     start: new Audio("sounds/start.mp3"),
     continue: new Audio("sounds/select.mp3"),
     gallery: new Audio("sounds/select.mp3"),
@@ -68,21 +68,6 @@ copy.play().catch(function (err){
 var bgMusic = document.getElementById("bg-music");
 bgMusic.volume = 0.3; 
 
-
-
-// -------- IDLE DARKNESS --------
-var gloom = document.getElementById("gloom");
-var idleTime = 0;
-
-function resetIdle(){
-    idleTime = 0;
-    gloom.style.setProperty("--gloom", 0);
-}
-
-setInterval(function (){
-    idleTime = idleTime + 1;
-    if (idleTime > 10){
-        var amount = Math.min((idleTime - 10) / 50, 0.85);
-        gloom.style.setProperty("--gloom", amount);
-    }
-}, 1000);
+bgMusic.play().catch(function (err){
+    console.log("music blocked:", err.name);
+});

@@ -85,12 +85,3 @@ body {
     100% { transform: skewX(-15deg) translateX(30px) scale(1.1); }
 }
 
-.gloom {
-    position: fixed;
-    inset: 0;
-    z-index: 5;
-    background: radial-gradient(circle, transparent 20%, #000 100%);
-    opacity: var(--gloom, 0);
-    pointer-events: none;
-    transition: opacity 1s;
-}
