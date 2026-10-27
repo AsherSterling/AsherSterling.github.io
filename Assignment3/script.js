@@ -11,7 +11,6 @@ var currentY = 0;
 document.addEventListener("mousemove", function (e){
     mouseX = (e.clientX / window.innerWidth - 0.5) * 2;
     mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
-    resetIdle();  
 })
 
 function animate(){
@@ -43,7 +42,7 @@ sounds.hover.volume = 0.3;
 function playSound(hover){
     var sound = sounds[hover];
     if (!sound) return; 
-    
+
     var copy = sound.cloneNode();
     copy.volume = sound.volume;
     copy.play();
@@ -69,3 +68,19 @@ copy.play().catch(function (err){
 var bgMusic = document.getElementById("bg-music");
 bgMusic.volume = 0.3; 
 
+// -------- IDLE DARKNESS --------
+var gloom = document.getElementById("gloom");
+var idleTime = 0;
+
+function resetIdle(){
+    idleTime = 0;
+    gloom.style.setProperty("--gloom", 0);
+}
+
+setInterval(function (){
+    idleTime = idleTime + 1;
+    if (idleTime > 10){
+        var amount = Math.min((idleTime - 10) / 50, 0.85);
+        gloom.style.setProperty("--gloom", amount);
+    }
+}, 1000);
