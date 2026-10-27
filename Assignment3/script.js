@@ -63,8 +63,4 @@ for (var s = 0; s < options.length; s++){
     });
 }
 
-// ---------- 7. BACKGROUND MUSIC ----------
-var music = new Audio("sounds/AmbienceCity.mp3");
-music.loop = true;
-music.volume = 0.4;
-music.play();
+
