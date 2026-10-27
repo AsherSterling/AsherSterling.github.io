@@ -4,6 +4,12 @@ var mouseY = 0;
 var currentX = 0;
 var currentY = 0;
 
+document.addEventListener("mousemove", function (e) {
+    mouseX = (e.clientX / window.innerWidth - 0.5) * 2;
+    mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
+    resetIdle(); 
+})
+
 function animate() {
   currentX += (mouseX - currentX) * 0.08;
   currentY += (mouseY - currentY) * 0.08;
