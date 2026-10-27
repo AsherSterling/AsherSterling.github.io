@@ -30,7 +30,7 @@ animate()
 
 //  -------- SOUND EFFECTS --------
 var sounds = {
-    hover: new Audio("sounds/pip.mp3"),
+    hover: new Audio("sounds/Pip.mp3"),
     start: new Audio("sounds/start.mp3"),
     continue: new Audio("sounds/select.mp3"),
     gallery: new Audio("sounds/select.mp3"),
@@ -67,6 +67,8 @@ copy.play().catch(function (err){
 
 var bgMusic = document.getElementById("bg-music");
 bgMusic.volume = 0.3; 
+
+
 
 // -------- IDLE DARKNESS --------
 var gloom = document.getElementById("gloom");
